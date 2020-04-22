@@ -92,7 +92,35 @@ hr {
   font: 18px border;
 }
 
+.fas.fa-bars {
+  display: none;
+}
+
 @media (max-width: 600px){
 
+  header .title {
+    display: block;
+  }
 
+  .icon{
+    display: none;
+  }
+
+  .fas.fa-bars {
+    display: inline;
+    margin: 2rem;
+    font-size: 28px;
+  }
+
+  .contentsbar {
+    display: none;
+  }
+
+  .content {
+    justify-content: space-between;
+  }
+
+  .content li {
+    padding: 0 1rem 0;
+  }
 }
