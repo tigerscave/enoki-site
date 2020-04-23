@@ -92,7 +92,7 @@ hr {
   font: 18px border;
 }
 
-.fas.fa-bars {
+.menu-icon {
   display: none;
 }
 
@@ -106,7 +106,7 @@ hr {
     display: none;
   }
 
-  .fas.fa-bars {
+  .menu-icon {
     display: inline;
     margin: 2rem;
     font-size: 28px;
