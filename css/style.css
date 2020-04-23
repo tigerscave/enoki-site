@@ -4,7 +4,7 @@ body {
 
 header {
   background: #e3e3e3;
-  height: 105px;
+  height: 7rem;
   width: 100vw;
   position: fixed;
 }
@@ -14,7 +14,7 @@ header {
   margin: 0 0;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  height: 4rem;
 }
 
 header .title {
@@ -73,8 +73,8 @@ header .icon ul li {
 }
 
 .photo {
-  margin-top: 100px;
-  height: 300px;
+  margin-top: 7rem;
+  height: 20rem;
   width: 100%;
   object-fit: cover;
 }
@@ -102,15 +102,13 @@ hr {
   display: none;
 }
 
-@media (min-width: 601px) {
-  .mobile-menu {
-    display: none;
-  }  
+.mobile-menu {
+  display: none;
 }
 
-@media (max-width: 600px) { 
+@media (max-width: 600px) {
   header {
-    height: 70px;
+    height: 4rem;
     position: fixed;
   }
 
@@ -121,7 +119,7 @@ hr {
   .icon{
     display: none;
   }
-  
+
   .fas.fa-bars {
     display: inline;
     margin: 2rem;
@@ -137,19 +135,20 @@ hr {
     justify-content: space-between;
   }
 
-  .mobile-menu.inactive {
+  .mobile-menu {
     display: none;
   }
-
+  
   .mobile-menu.active {
+    display: block;
     background-color: #222;
     color: #eee;
     text-align: center;
     opacity: 0.9;
     position: fixed;
-    margin: 90px 20px;
-    width: calc(100vw - 40px);
-    height: calc(100vh - 110px);
+    margin: 5rem 1rem 1rem;
+    width: calc(100vw - 2rem);
+    height: calc(100vh - 6rem);
   }
 
   .mobile-menu.active p {
@@ -186,6 +185,6 @@ hr {
   }
 
   .photo {
-    margin-top: 70px;
+    margin-top: 4rem;
   }
 }
