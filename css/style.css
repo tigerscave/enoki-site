@@ -9,27 +9,25 @@ header {
 .header {
   display: flex;
   margin: 0 0;
+  align-items: center;
   justify-content: space-between;
 }
 
 header .title {
   display: flex;
+  align-items: flex-end;
   padding: 20px;
-  /* align-items: flex-end; */
 }
 
 header h1 {
   font-size: 24px;
-  height: 40px;
   margin: 0;
-  padding-top: 24px;
 }
 
 header p {
   font-size: 18px;
-  height: 40px;
   margin: 0 12px;
-  padding-top: 30px;
+  margin-bottom: 2px;
 }
 
 header .icon ul {
@@ -49,11 +47,15 @@ header .icon ul li {
   border-radius: 50%;
 }
 
+.contentsbar {
+  display: inline;
+}
+
 .content {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  margin: 10px;
+  justify-content: flex-start;
+  margin: 10px 0 0;
   padding: 0;
 }
 
@@ -61,8 +63,36 @@ header .icon ul li {
   padding: 0 20px;
 }
 
+.content a {
+  text-decoration: none;
+}
+
 .photo {
   height: 300px;
   width: 100%;
   object-fit: cover;
+}
+
+hr {
+  border: none;
+}
+
+.information h1 {
+  text-align: center;
+  font: 18px border;
+}
+
+.plofile h1 {
+  text-align: center;
+  font: 18px border;
+}
+
+.media h1 {
+  text-align: center;
+  font: 18px border;
+}
+
+@media (max-width: 600px){
+
+
 }
